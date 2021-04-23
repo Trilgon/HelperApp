@@ -1,4 +1,4 @@
-package ru.mirea.muratov.mireaproject.ui.webView;
+package ru.mirea.muratov.mireaproject.ui.web_view;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -6,14 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
 
 import ru.mirea.muratov.mireaproject.R;
 

@@ -19,7 +19,12 @@
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="ru.mirea.muratov.mireaproject.ui.webView.WebFragment"
+        android:name="ru.mirea.muratov.mireaproject.ui.web_view.WebFragment"
         android:label="@string/menu_browser"
         tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/nav_audio"
+        android:name="ru.mirea.muratov.mireaproject.ui.audio.AudioFragment"
+        android:label="Audio Player"
+        tools:layout="@layout/fragment_audio" />
 </navigation>
