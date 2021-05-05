@@ -27,4 +27,9 @@
         android:name="ru.mirea.muratov.mireaproject.ui.audio.AudioFragment"
         android:label="Audio Player"
         tools:layout="@layout/fragment_audio" />
+    <fragment
+        android:id="@+id/nav_permission"
+        android:name="ru.mirea.muratov.mireaproject.ui.permission.PermissionFragment"
+        android:label="Camera and Recorder"
+        tools:layout="@layout/fragment_permission" />
 </navigation>

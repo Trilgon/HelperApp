@@ -20,5 +20,9 @@
             android:id="@+id/nav_audio"
             android:icon="@drawable/ic_launcher_background"
             android:title="Audio Player" />
+        <item
+            android:id="@id/nav_permission"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Camera and Recorder" />
     </group>
 </menu>
