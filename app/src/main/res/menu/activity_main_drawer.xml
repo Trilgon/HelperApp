@@ -24,5 +24,13 @@
             android:id="@id/nav_permission"
             android:icon="@drawable/ic_launcher_background"
             android:title="Camera and Recorder" />
+        <item
+            android:id="@id/nav_parametrs"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Parameters" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Stories" />
     </group>
 </menu>

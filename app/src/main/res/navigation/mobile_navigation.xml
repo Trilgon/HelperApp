@@ -32,4 +32,14 @@
         android:name="ru.mirea.muratov.mireaproject.ui.permission.PermissionFragment"
         android:label="Camera and Recorder"
         tools:layout="@layout/fragment_permission" />
+    <fragment
+        android:id="@+id/nav_parametrs"
+        android:name="ru.mirea.muratov.mireaproject.ui.parameters.Parametrs"
+        android:label="fragment_parametrs"
+        tools:layout="@layout/fragment_parametrs" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="ru.mirea.muratov.mireaproject.ui.stories.History"
+        android:label="Stories"
+        tools:layout="@layout/fragment_history" />
 </navigation>

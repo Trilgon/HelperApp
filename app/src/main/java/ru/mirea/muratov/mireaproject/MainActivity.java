@@ -3,6 +3,7 @@ package ru.mirea.muratov.mireaproject;
 import android.os.Bundle;
 import android.view.Menu;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.navigation.NavController;
@@ -12,6 +13,8 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
+import ru.mirea.muratov.mireaproject.ui.stories.MyDialogFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,8 +30,14 @@ public class MainActivity extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(view -> {
+            MyDialogFragment dialogFragment = new MyDialogFragment();
+            dialogFragment.show(getSupportFragmentManager(), "mirea");
+        });
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_calculator, R.id.nav_slideshow, R.id.nav_audio, R.id.nav_permission)
+                R.id.nav_home, R.id.nav_calculator, R.id.nav_slideshow, R.id.nav_audio,
+                R.id.nav_permission, R.id.nav_parametrs, R.id.nav_history)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
