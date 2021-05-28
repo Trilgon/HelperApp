@@ -32,5 +32,9 @@
             android:id="@+id/nav_history"
             android:icon="@drawable/ic_launcher_background"
             android:title="Stories" />
+        <item
+            android:id="@+id/nav_page"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Web Content" />
     </group>
 </menu>
